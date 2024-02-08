@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.utils.safestring import mark_safe
 
 
 # Create your models here.
@@ -49,6 +50,13 @@ class Desafio(models.Model):
     flashcards = models.ManyToManyField(FlashcardDesafio)
 
     def __str__(self):
+        return self.titulo
+
+    def status(self):
+        if self.flashcards.filter(respondido=False).exists():
+            return mark_safe(f'<span class="badge bg-primary">Em progresso</span>')
+        else:
+            return mark_safe('<span class="badge bg-success">Finalizado</span>')
         return self.titulo
 
 
