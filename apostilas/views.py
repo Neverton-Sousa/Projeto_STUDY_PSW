@@ -24,3 +24,8 @@ def adicionar_apostilas(request):
             request, constants.SUCCESS, "Apostila adicionada com sucesso."
         )
         return redirect("/apostilas/adicionar_apostilas/")
+
+
+def apostila(request, id):
+    apostila = Apostila.objects.get(id=id)
+    return render(request, "apostila.html", {"apostila": apostila})
