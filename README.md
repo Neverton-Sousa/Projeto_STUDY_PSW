@@ -1,72 +1,92 @@
 <h1 align="center">
-    <img alt="ProtocoloEletronico" title="#ProtocoloEletronico" src="./assets/banner.png" height="400" />
+    <img alt="FlashCardsApp" title="#FlashCardsApp" src="./assets/banner.png" height="400" />
 </h1>
 
 <p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-project">Project</a> •
+ <a href="#-features">Features</a> •
  <a href="#-layout">Layout</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#user-content--licença">Licença</a>
+ <a href="#-built-with">Built With</a> • 
+ <a href="#-license">License</a>
 </p>
 
 <h4 align="center"> 
-	🚧 Concluido!  🚧
+	🚧 Completed!  🚧
 </h4>
 
 ---
  
-## 💻 Sobre o projeto
-
-Protocolo Eletrônico - é um sistema para registro de protocolos em prefeituras com banco de dados em nuvem do [Firebase][firebase].
+## 💻 Project
+*"Learn Fast, Remember More"*
+FlashCardsApp is a user-friendly platform designed to create, organize, and review flashcards, helping you study more efficiently.
 
 ---
 
-## ⚙️ Funcionalidades
-- [x] Autenticação de usuários por uma Tela de Login:
-
-- [x] Os usuários tem acesso a tela principal de Requerimento:
-  - [x] registrar um novo requerimento
-  - [x] escolher se deseja criar um documento para impressão
-
-- [x] Os usuários tem acesso a Tela de Procurar podem buscar por protocolos registrados:
-  - [x] visualização dos ultimos protocolos registrados
-  - [x] busca por nome, protocolo e cpf/cnpj registrados
-  - [x] filtro de busca por ano 
-  - [x] visualização do resgistro do protocolo
-  - [x] abrir ou criar um novo documento para impressão
-
-- [x] Os usuários tem acesso a Tela de Relatorios podem gerar relatorios:
-  - [x] visuzalização dos ultimos relatorios gerados
-  - [x] vizualição grafica da quantidade registros feitos por mes
-  - [x] posibilidade de gerar relatorios por mes e ano 
+## ⚙️ Features
+- [x] Create and edit flashcards.
+- [x] Organize flashcards into decks.
+- [x] Review flashcards with different modes.
+- [x] Intuitive and responsive interface.
+- [x] Handbook storage.
 
 ---
 
 ## 🎨 Layout
 
-O layout da aplicação está disponível no Projeto:
-
 ### Web
 
-<p align="center"> Tela de Login <br>
-  <img alt="TelaLogin" title="#TelaLogin" src="./assets/login.png" width="300px">
+<p align="center"> Screenshot <br>
+  <img alt="criar-flashcards" title="#criar-flashcards" src="./assets/screenshot-criar-flashcards.png" width="500px">
 </p>
-<p align="center"> Tela Principal<br>
-  <img alt="TelaRequerimentos" title="#TelaRequerimentos" src="./assets/protocolo.png" width="500px">
+<p align="center"><br>
+  <img alt="desafios" title="#desafios" src="./assets/screenshot-desafios.png" width="500px">
 </p>
-<p align="center"> Tela de Busca<br>
-  <img alt="TelaProcurar" title="#TelaProcurar" src="./assets/procurar.png" width="500px">
+<p align="center"><br>
+  <img alt="iniciar-desafio" title="#iniciar-desafio" src="./assets/screenshot-iniciar-desafio.png" width="500px">
 </p>
-<p align="center"> Tela de Relatorio<br>
-  <img alt="TelaRelatorio" title="#TelaRelatorio" src="./assets/relatorio.png" width="500px">
+<p align="center"><br>
+  <img alt="apostilas" title="#apostilas" src="./assets/screenshot-apostilas.png" width="500px">
 </p>
 
 ---
+## Installation
 
-## 🛠 Tecnologias
+### Prerequisites
+- Python 3.x
+- Django 4.x
+- Node.js
 
-As seguintes ferramentas foram usadas na construção do projeto:
+### Steps
+1. Clone the repository:
+	  ```bash
+	   git clone https://github.com/seu-usuario/FlashCardsApp.git
+2. Navigate to the project directory:
+	  ```bash
+	  cd FlashCardsApp
+
+3. Install the dependencies:
+	  ```bash
+	  pip install -r requirements.txt
+
+4. Install django packages:
+	```bash
+ 	pip install django
+
+5. Apply database migrations:
+	```bash
+ 	python manage.py migrate
+
+6. Start the development server:
+	```bash
+ 	python manage.py runserver
+
+### Usage
+1. Visit http://127.0.0.1:8000/ in your browser.
+2. Sign up or log in.
+3. Start creating your flashcards and organizing them into decks.
+
+---
+## 🛠 Built With
 
 - [Python][python]
 - [javaScript][javascript]
@@ -76,9 +96,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-## 📝 Licença
+## 📝 License
 
-Este projeto esta sobe a licença MIT.
+Distributed under the MIT License.
 
 Feito com ❤️ por neverton Sousa 👋🏽 [Entre em contato!](https://www.linkedin.com/in/neverton-sousa-191708249/)
 
