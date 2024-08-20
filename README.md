@@ -47,7 +47,7 @@ Protocolo Eletrônico - é um sistema para registro de protocolos em prefeituras
 
 O layout da aplicação está disponível no Projeto:
 
-### Desktop
+### Web
 
 <p align="center"> Tela de Login <br>
   <img alt="TelaLogin" title="#TelaLogin" src="./assets/login.png" width="300px">
@@ -69,9 +69,10 @@ O layout da aplicação está disponível no Projeto:
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Python][python]
-- [Firebase][firebase]
-- [QtDesigner][qtdesigner]
+- [javaScript][javascript]
+- [CSS][css]
 - [Html][html]
+- [Django][django]
 
 ---
 
@@ -83,8 +84,10 @@ Feito com ❤️ por neverton Sousa 👋🏽 [Entre em contato!](https://www.lin
 
 
 [python]: https://nodejs.org/](https://www.python.org/
+[css]: [https://nodejs.org/](https://www.python.org/](https://www.w3schools.com/css/
+[javascript]: [https://nodejs.org/](https://www.python.org/](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript](https://www.w3schools.com/js/)
 [firebase]: https://www.typescriptlang.org/](https://firebase.google.com/
-[qtdesigner]: https://expo.io/](https://doc.qt.io/qt-6/qtdesigner-manual.html
+[django]: https://www.djangoproject.com/
 [html]: https://reactjs.org](https://www.w3schools.com/html/
 [rn]: https://facebook.github.io/react-native/
 [yarn]: https://yarnpkg.com/
