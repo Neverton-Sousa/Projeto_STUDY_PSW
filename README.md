@@ -84,8 +84,8 @@ Feito com ❤️ por neverton Sousa 👋🏽 [Entre em contato!](https://www.lin
 
 
 [python]: https://nodejs.org/](https://www.python.org/
-[css]: [https://nodejs.org/](https://www.python.org/](https://www.w3schools.com/css/
-[javascript]: [https://nodejs.org/](https://www.python.org/](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript](https://www.w3schools.com/js/)
+[css]: https://www.python.org/](https://www.w3schools.com/css/
+[javascript]: https://www.python.org/](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript](https://www.w3schools.com/js/
 [firebase]: https://www.typescriptlang.org/](https://firebase.google.com/
 [django]: https://www.djangoproject.com/
 [html]: https://reactjs.org](https://www.w3schools.com/html/
